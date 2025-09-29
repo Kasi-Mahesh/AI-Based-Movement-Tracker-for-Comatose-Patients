@@ -14,17 +14,21 @@ Patients in comatose states are difficult to monitor continuously. Traditional m
 ## Tech Stack
 **Programming Languages:**  
 - Python – for AI model integration, data processing, and scripting  
-- C++ – for performance-critical operations and OpenPose integration  
+- C++ – for performance-critical operations and OpenPose integration
+-   
 **Libraries / Frameworks:**  
 - [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) – real-time human pose estimation  
 - CUDA – GPU acceleration for deep learning computations  
-- cuDNN – optimized GPU primitives for neural networks  
+- cuDNN – optimized GPU primitives for neural networks
+-  
 **Tools / Development Environment:**  
 - CMake – for building OpenPose and managing dependencies  
 - Visual Studio 2022 – IDE for C++ and Python integration  
-- Git – version control  
+- Git – version control
+- 
 **Hardware (Proposed / Recommended):**  
-- NVIDIA Jetson Nano or similar GPU-enabled edge device – for real-time processing and low-latency inference  
+- NVIDIA Jetson Nano or similar GPU-enabled edge device – for real-time processing and low-latency inference
+- 
 **Output / Data Storage:**  
 - CSV files – to log detected movements and generate records for analysis
 
