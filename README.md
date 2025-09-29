@@ -11,12 +11,22 @@ Patients in comatose states are difficult to monitor continuously. Traditional m
 4.Provide alerts to doctors/nurses when movement is detected.
 5.Enable continuous monitoring with low computational load using edge devices (NVIDIA Jetson Nano GPU).
 
-# Tech Stack
-1.Programming Languages: Python, C++
-2.Libraries/Frameworks: OpenPose (by CMU), CUDA, cuDNN
-3.Tools: CMake, Git, Visual Studio 2022
-4.Hardware: NVIDIA Jetson nano for edge computing
-5.Output Format: CSV files for movement logs
+## Tech Stack
+**Programming Languages:**  
+- Python – for AI model integration, data processing, and scripting  
+- C++ – for performance-critical operations and OpenPose integration  
+**Libraries / Frameworks:**  
+- [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) – real-time human pose estimation  
+- CUDA – GPU acceleration for deep learning computations  
+- cuDNN – optimized GPU primitives for neural networks  
+**Tools / Development Environment:**  
+- CMake – for building OpenPose and managing dependencies  
+- Visual Studio 2022 – IDE for C++ and Python integration  
+- Git – version control  
+**Hardware (Proposed / Recommended):**  
+- NVIDIA Jetson Nano or similar GPU-enabled edge device – for real-time processing and low-latency inference  
+**Output / Data Storage:**  
+- CSV files – to log detected movements and generate records for analysis
 
 # How OpenPose Helps
 OpenPose plays a central role in our AI-based movement tracker by providing **real-time pose estimation**. It detects keypoints on the human body, including joints, fingers, toes, and facial points, which allows our system to :
