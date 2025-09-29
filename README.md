@@ -35,3 +35,12 @@ This demo video shows how OpenPose detects keypoints on the human body in real-t
 # Keypoints Illustration
 Below is an example image showing how keypoints are mapped on the body using OpenPose. Each point corresponds to a joint, which enables the AI to track even subtle movements accurately.
 ![OpenPose Keypoints Diagram](open_pose_keypoints.jpeg)
+
+## Acknowledgments & Research Scope
+We extend our sincere gratitude to the external resources and contributors that have been foundational to this project:
+* **Core Technology:** Special thanks to the CMU Perceptual Computing Lab for their work on [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), which is the cornerstone of our real-time pose estimation solution.
+* **Institutional Support:** Gratitude to Sri Vasavi Engineering College , Peddatadepalli and our project mentor(s) for their valuable guidance and resources throughout this initial phase.
+
+**Scope of Research:**
+Up to this point, all research and analysis have been focused on understanding the requirements, evaluating relevant technologies, and identifying the core components necessary for an AI-based movement tracker for comatose patient system. The resources cited above represent the foundational elements that will guide any future development efforts.
+
