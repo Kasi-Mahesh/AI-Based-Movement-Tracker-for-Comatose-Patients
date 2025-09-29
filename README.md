@@ -31,4 +31,6 @@ In short, OpenPose allows us to **track micro-movements precisely and efficientl
 # Demo Video: Keypoint Detection
 This demo video shows how OpenPose detects keypoints on the human body in real-time. Each dot represents a joint or body part, and the lines connecting them form a skeleton overlay. This visualization helps explain how keypoints are placed to detect movement.
 ![Demo GIF](open_pose_demo_video.gif)
-              
+      
+# Keypoints Illustration
+Below is an example image showing how keypoints are mapped on the body using OpenPose. Each point corresponds to a joint, which enables the AI to track even subtle movements accurately.
