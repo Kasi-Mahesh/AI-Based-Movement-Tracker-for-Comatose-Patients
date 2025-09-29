@@ -26,6 +26,7 @@ Patients in comatose states are difficult to monitor continuously. Traditional m
 - Visual Studio 2022 – IDE for C++ and Python integration  
 - Git – version control
 - Git Bash
+  
 **Hardware (Proposed / Recommended):**  
 - NVIDIA Jetson Nano or similar GPU-enabled edge device – for real-time processing and low-latency inference
  
