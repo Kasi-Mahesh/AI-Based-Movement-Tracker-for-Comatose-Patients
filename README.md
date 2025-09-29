@@ -6,9 +6,13 @@ Patients in comatose states are difficult to monitor continuously. Traditional m
 
 # Objectives
 1.Detect micro-movements (finger, toe, eyelid, wrist).
+
 2.Use AI pose estimation (OpenPose) to track patient skeleton keypoints.
+
 3.Store detected movements in CSV logs for medical analysis.
+
 4.Provide alerts to doctors/nurses when movement is detected.
+
 5.Enable continuous monitoring with low computational load using edge devices (NVIDIA Jetson Nano GPU).
 
 ## Tech Stack
