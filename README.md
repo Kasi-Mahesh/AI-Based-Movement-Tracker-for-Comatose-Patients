@@ -1,2 +1,33 @@
 # AI-Based-Movement-Tracker-for-Comatose-Patients
 Research of SIH project on AI-Based Movement Tracker  for Comatose Patients
+
+# Goal : 
+Patients in comatose states are difficult to monitor continuously. Traditional methods require manual observation, which may miss subtle recovery signs. Our project aims to develop an AI-based system that automatically detects and records even minute movements in comatose patients to assist healthcare professionals.
+
+# Objectives
+1.Detect micro-movements (finger, toe, eyelid, wrist).
+2.Use AI pose estimation (OpenPose) to track patient skeleton keypoints.
+3.Store detected movements in CSV logs for medical analysis.
+4.Provide alerts to doctors/nurses when movement is detected.
+5.Enable continuous monitoring with low computational load using edge devices (NVIDIA Jetson Nano GPU).
+
+# Tech Stack
+1.Programming Languages: Python, C++
+2.Libraries/Frameworks: OpenPose (by CMU), CUDA, cuDNN
+3.Tools: CMake, Git, Visual Studio 2022
+4.Hardware: NVIDIA Jetson nano for edge computing
+5.Output Format: CSV files for movement logs
+
+# How OpenPose Helps
+OpenPose plays a central role in our AI-based movement tracker by providing **real-time pose estimation**. It detects keypoints on the human body, including joints, fingers, toes, and facial points, which allows our system to :
+
+1 . Identify subtle movements : Even small changes in a patient’s body position, like finger twitches or eyelid movements, can be captured.  
+2 . Provide a visual reference : Skeleton overlays help verify movement detection and ensure accuracy.  
+3 . Enable automated analysis : By translating body movements into keypoint data, the system can log movements in CSV files without manual observation.  
+4 . Work efficiently with GPUs : When combined with CUDA and cuDNN, OpenPose processes video frames quickly, making continuous monitoring possible on edge devices like NVIDIA Jetson Nano.  
+
+In short, OpenPose allows us to **track micro-movements precisely and efficiently**, forming the foundation of our AI-based monitoring system.
+
+# Demo Video: Keypoint Detection
+This demo video shows how OpenPose detects keypoints on the human body in real-time. Each dot represents a joint or body part, and the lines connecting them form a skeleton overlay. This visualization helps explain how keypoints are placed to detect movement.
+              
