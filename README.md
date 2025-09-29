@@ -34,3 +34,4 @@ This demo video shows how OpenPose detects keypoints on the human body in real-t
       
 # Keypoints Illustration
 Below is an example image showing how keypoints are mapped on the body using OpenPose. Each point corresponds to a joint, which enables the AI to track even subtle movements accurately.
+![OpenPose Keypoints Diagram](open_pose_keypoints.jpeg)
